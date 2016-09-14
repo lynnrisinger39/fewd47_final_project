@@ -1,0 +1,54 @@
+
+body {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff1b02+0,ff5047+45,6267ea+73 */
+	background: #ff1b02; /* Old browsers */
+background: -moz-linear-gradient(left, #ff1b02 0%, #ff5047 45%, #6267ea 73%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ff1b02 0%,#ff5047 45%,#6267ea 73%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ff1b02 0%,#ff5047 45%,#6267ea 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1b02', endColorstr='#6267ea',GradientType=1 ); /* IE6-9 */
+
+	color: antiquewhite;
+	font-family: 'Droid Serif', serif;
+}
+
+
+/* body {
+	background-color: #e01010;
+} */
+
+h1 {
+	text-align: center;
+	font-size: 5rem;
+}
+
+h2{
+	text-align: center;
+	font-size: 4rem;
+}
+
+article .athletes {
+	width: 40%;
+}
+
+article {
+	float: left;
+}
+
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+.biopic {
+	border: 5px solid darkblue;
+}
+
+biopic:hover {
+	transform: scale(1.5,1.5);
+}
+
+.bioparagraph {
+	display: none;
+}
+/* MAKE IMAGES ALL THE SAME SIZE BEFORE DOING ANYTHING ELSE */

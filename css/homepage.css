@@ -1,0 +1,50 @@
+body {
+	background-image: url('../images/finalfivewithgold.jpg');
+	background-repeat: no-repeat;
+	color:white;
+	background-size: cover;	
+	text-align: center;
+	/* position: relative; */
+}
+
+h1,h2{
+	font-family: 'Lobster Two', cursive;
+
+}
+
+h1{
+	position: relative;
+	font-size: 50px;
+	color: #FF3030;
+	font-weight: lighter;
+
+}
+
+footer{
+	clear: both;
+	/* font-family: 'Lobster Two', cursive; */
+	position: absolute;
+	bottom: 10px;
+	margin: auto;
+	font-size: 65px;
+	color: #FFD700;
+	
+}
+
+nav{
+	background-color: white;
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	width: 150px;
+	text-decoration: underline;
+	font-size: 25px;
+
+}
+
+a{
+	background-color: gray;
+
+}
