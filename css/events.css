@@ -9,8 +9,79 @@ body {
 	font-family: 'Droid Serif', serif;
 }
 
-
-
-#eventsinfo {
-	font-size: 1rem;
+.main-nav {
+	opacity: .8;
+	display: block;
+	float: right;
 }
+
+h1 {
+	background-image: url('http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/royalblue201_tlg.gif'); 
+	font-size: 55px;
+	text-align: center;
+	max-width: 800px;
+	margin: auto;
+}
+
+h2 {
+	color: #FDD017;
+	text-shadow: lightgoldenrodyellow 0 0 15px;
+	font-size: 3rem;
+	text-align: center;
+}
+
+h3 {
+	padding-left: 35px;
+}
+
+li {
+	background-color: darkgray;
+	text-decoration: none;
+	list-style: none;
+	float: left;
+	border: 2px solid antiquewhite;
+}
+
+li a {
+	display: block;
+	color: antiquewhite;
+	padding: 10px 10px;
+	background-image: url('http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/2v8k9rn.gif');
+}
+
+a {
+	display: block;
+	text-align: center;
+	color: #F9B7FF;
+	font-weight: bolder;
+	font-size: 1.2rem;
+}
+
+
+a:hover {
+	color: #FDD017;
+}
+
+p {
+	padding: 25px;
+	font-size: 1.3rem;
+}
+
+
+img, iframe {
+	display: block;
+	margin: auto;
+}
+
+h3 a {
+	text-align: left;
+}
+
+footer {
+	font-size: .75rem;
+	color: lightgray;
+	display: inline-block;
+	float: right;
+}
+
+

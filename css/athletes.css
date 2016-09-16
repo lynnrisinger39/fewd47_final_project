@@ -9,6 +9,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1b02', end
 
 	color: antiquewhite;
 	font-family: 'Droid Serif', serif;
+	-webkit-font-smoothing: antialiased;
 }
 
 
@@ -16,19 +17,52 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff1b02', end
 	background-color: #e01010;
 } */
 
+.main-nav {
+	opacity: .8;
+	display: block;
+	float: right;
+}
+
 h1 {
 	text-align: center;
-	font-size: 5rem;
+	font-size: 8rem;
+	background-image: url('http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/2hqxzyo.gif');
+	max-width: 800px;
+    margin: auto;
+
 }
 
 h2{
 	text-align: center;
-	font-size: 4rem;
+	font-size: 4.5rem;
+	text-shadow: lightgoldenrodyellow 0 0 10px;
+	color: #FDD017;
 }
 
-article .athletes {
-	width: 40%;
+#nicknameexplain {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bolder;
 }
+
+#explain {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+h3 {
+	color: #FDD017;
+	font-size: 3rem;
+	z-index: 10; 
+	text-shadow: 2px 1px darkgray;
+  }
+ 
+
+.athletes{
+	text-align: center;
+}
+
 
 article {
 	float: left;
@@ -36,19 +70,45 @@ article {
 
 
 li {
+	background-color: darkgray;
 	text-decoration: none;
 	list-style: none;
+	float: left;
+	border: 2px solid antiquewhite;
 }
 
-.biopic {
-	border: 5px solid darkblue;
+li a {
+	display: block;
+	color: antiquewhite;
+	text-align: center;
+	padding: 10px 10px;
+	background-image: url('http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/2hqxzyo.gif');
+}
+a {
+	color: antiquewhite;
+	font-weight: bold;
+}
+a:hover {
+	color: #FDD017;
 }
 
-biopic:hover {
-	transform: scale(1.5,1.5);
+img {
+	border: 10px solid darkblue;
+	margin: 15px auto 25px auto;
+	
+}
+
+img:hover {
+	transform: translateY(20px) scale(1.2,1.2);
+	transition: all .5s ease-in-out;
+	box-shadow: 5px 5px 0px #FDD017;
+	z-index: 5;
 }
 
 .bioparagraph {
 	display: none;
+	margin-top: 50px;
 }
+
+
 /* MAKE IMAGES ALL THE SAME SIZE BEFORE DOING ANYTHING ELSE */
