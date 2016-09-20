@@ -15,6 +15,19 @@ body {
 	float: right;
 }
 
+
+#eventsnav {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	color: #FDD017;
+	height: 50px;
+
+}
+section {
+	height: 100%;
+}
+
 h1 {
 	background-image: url('http://i361.photobucket.com/albums/oo54/crackysparkles/sparkles/royalblue201_tlg.gif'); 
 	font-size: 55px;
@@ -82,6 +95,40 @@ footer {
 	color: lightgray;
 	display: inline-block;
 	float: right;
+}
+
+.hamburger {
+	cursor: pointer;
+	display: block;
+	margin: 1rem auto;
+  	width: 2.5rem;
+  	position: relative;
+}
+
+.line {
+	border-bottom: 4px solid #FFD700;
+	width: 35px;
+	margin-bottom: 6px;
+}
+
+.line:last-child {
+	margin-bottom: 0;
+}
+
+
+li {
+  border-top: 2px solid antiquewhite;
+  list-style: none;
+  transition: all 300ms ease-in-out;
+}
+
+.sidebar {
+	transform: translateX(100%);
+	transition: all .4s ease-in-out;
+}
+
+.active {
+	transform: translateX(0);
 }
 
 
